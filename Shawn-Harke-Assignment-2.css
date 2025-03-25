@@ -125,6 +125,6 @@ img{
 @media (max-width: 600px){ 
     .gridItem{
         display:grid;
-        grid-template-columns: 250px;
+        grid-template-columns: 300px;
     }
 }

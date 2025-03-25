@@ -74,7 +74,7 @@ img{
     table{
         display: block;
     }
-    h3{
+    h3, h2{
         scroll-margin-top: 65px;
     }
 }

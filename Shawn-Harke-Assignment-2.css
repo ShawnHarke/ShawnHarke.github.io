@@ -101,7 +101,7 @@ img{
         width:90%;
         float: initial;
     }
-    h3{
+    h3, h2{
         scroll-margin-top: 240px;
     }
 }

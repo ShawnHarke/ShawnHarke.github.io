@@ -94,5 +94,12 @@ main{
         display:grid;
         grid-template-columns: 300px;
     }
+    body{
+        background-color: lightblue;
+        color: black;
+        width: 90%;
+        margin: 0px auto 0px auto;
+        border: 0px;
+    }
 
 }

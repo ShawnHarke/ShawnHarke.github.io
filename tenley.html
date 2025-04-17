@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenley's page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tenley.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Tenley's page</h1>
+                </div>
+                <div class="col-md-4">
+                    <nav class="nav justify-content-end" id="external-nav">
+                        <a class="nav-link" href="index.html">Main Menu</a>
+                        <a class="nav-link" href="mona.html">Mona's Page</a>
+                        <a class="nav-link" href="maxwell.html">Maxwell's Page</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-3">
+        <div class="row">
+            <aside class="col-md-3 internal-nav">
+                <h4>Navigation</h4>
+                <nav id="internal nav">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#bio" class="nav-link">Bio</a></li>
+                        <li class="nav-item"><a href="#pictures" class="nav-link">Pictures</a></li>
+                    </ul>
+                </nav>
+                <h4 class="mt-4">Images</h4>
+                <div class="card mb-3">
+                    <img src="tenley1.jpg" alt="photo of Tenley sitting" class="card-img-bottom">
+                    <div class="card-body"> 
+                        <p class="card-text">Tenley sitting</p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="tenley3.jpg" alt="photo of Tenley sleeping" class="card-img-bottom">
+                    <div class="card-body"> 
+                        <p class="card-text">Tenley is sleeping</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Tenley4.jpg" alt="photo of Tenley being playful" class="card-img-bottom">
+                    <div class="card-body"> 
+                        <p class="card-text">Tenley is in a playful mood</p>
+                    </div>
+                </div>
+            </aside>
+            <article class="col-md-9 main-content">
+                <h2 id="bio">Who is Tenley</h2>
+                <p>“Tenley is the cat most recently adopted into my home, and she was about a year old when
+                    I got her. She's around 4 years old now - the time sure does fly. After I lost Maxwell, I
+                    volunteered at the local animal shelter to help all the kitties who didn't have a home, and
+                    every morning when I walked into that room, she came up to me and was super affectionate
+                    and interested. I knew immediately: I would adopt this cat!
+                    She took no time to get adjusted to my home, and is one of the sweetest cats I've ever met.
+                    She loves to cuddle and be petted, and never runs out of energy. Her favorite thing to do is
+                    carry her fishing rod around at 3AM and meow looking for attention. Her and Mona don't get along extremely well, in part because of a clash of personalities.
+                    Tenley is very active and outgoing and full of energy, so with a more anxious cat, it just
+                    doesn't work well. But overall they've learned to co-exist without issue, so it's fine.”
+                    </p>
+                <div id="pictures" class="small-carousel">
+                    <div id="monaCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Tenley2.jpg" class="d-block w-100 carousel-image" alt="Tenley sitting">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley5.jpg" class="d-block w-100 carousel-image" alt="Tenley laying on the bed">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley6.jpg" class="d-block w-100 carousel-image" alt="Tenley sitting by the TV">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley7.jpg" class="d-block w-100 carousel-image" alt="Tenley being pet">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley8.jpg" class="d-block w-100 carousel-image" alt="Tenley sitting on the bed">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley9.jpg" class="d-block w-100 carousel-image" alt="Tenley laying down">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley10.jpg" class="d-block w-100 carousel-image" alt="Tenley playing with toilet paper">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley11.jpg" class="d-block w-100 carousel-image" alt="Tenley looking at the camera">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tenley12.jpg" class="d-block w-100 carousel-image" alt="Tenley under the blanket">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#monaCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#monaCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Created by Shawn Harke</p>
+        <p>Pictures provided by Travis Cattington</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

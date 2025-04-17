@@ -1,0 +1,108 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: darkred;
+    padding: 5px 0;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.aside {
+    position: sticky;
+    top: 99px;
+    z-index: 999;
+}
+
+.internal-nav {
+    position: sticky;
+    top: 99px;
+    z-index: 999;
+    background-color: darkred;
+    padding: 10px;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.footer {
+    background-color: darkred;
+    padding: 5px 0;
+    border-top: 2px solid black;
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+    line-height: 0;
+    font-size: 14px;
+}
+
+.internal-nav .card {
+    width: 100%;
+    margin-bottom: 10px;
+    border-color: black;
+    border: 2px solid black;
+}
+.internal-nav .card-img-bottom {
+    height: 80px;
+    object-fit: cover;
+}
+.internal-nav .card-text {
+    font-size: 14px;
+}
+
+.small-carousel {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+.carousel-image {
+    height: 500px;
+    object-fit: cover;
+}
+
+.main-content {
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+@media(max-width:480px){
+    .carousel-image{
+        height: 250px;
+    }
+    .internal-nav .card {
+        width: 50%;
+        margin-bottom: 7.5px;
+        border-color: black;
+        border: 2px solid black;
+    }
+    .internal-nav .card-img-bottom {
+        height: 60px;
+        object-fit: cover;
+    }
+    .internal-nav .card-text {
+        font-size: 0.85rem;
+    }
+    
+    .main-container {
+        flex-direction: column;
+    }
+    .aside {
+        position: static;
+        height: auto;
+    }
+}

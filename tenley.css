@@ -1,3 +1,8 @@
+
+html{
+    scroll-padding-top: 70px;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -74,29 +79,69 @@ aside {
     flex: 1;
 }
 
-@media(max-width:480px){
-    .carousel-image{
-        height: 250px;
-    }
-    .internal-nav .card {
-        width: 50%;
-        margin-bottom: 7.5px;
-        border-color: black;
-        border: 2px solid black;
-    }
-    .internal-nav .card-img-bottom {
-        height: 60px;
-        object-fit: cover;
-    }
-    .internal-nav .card-text {
-        font-size: 0.85rem;
+@media (max-width: 770px) {
+    .header .row {
+        flex-direction: column;
+        text-align: center;
     }
     
-    .main-container {
+    .header h1 {
+        margin-bottom: 10px;
+    }
+    
+    #external-nav {
+        justify-content: center;
+    }
+    
+    .main-container .row {
         flex-direction: column;
     }
-    .aside {
+    
+    aside {
         position: static;
+        margin-bottom: 20px;
+    }
+    
+    .internal-nav {
         height: auto;
+    }
+    
+    .internal-nav .card-img-bottom {
+        height: 120px;
+    }
+    
+    .carousel-image {
+        height: 300px; 
+    }
+    
+    .small-carousel {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+    .header {
+        padding: 10px 0;
+    }
+    
+    #external-nav .nav-link {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    
+    .internal-nav .card {
+        margin-bottom: 15px;
+    }
+    
+    .internal-nav .card-img-bottom {
+        height: 150px;
+    }
+    
+    .carousel-image {
+        height: 250px;
+    }
+    
+    .footer {
+        font-size: 12px;
     }
 }

@@ -23,7 +23,7 @@ nav {
     flex: 1;
 }
 
-.aside {
+aside {
     position: sticky;
     top: 99px;
     z-index: 999;
@@ -101,7 +101,7 @@ nav {
     .main-container {
         flex-direction: column;
     }
-    .aside {
+    aside {
         position: static;
         height: auto;
     }
